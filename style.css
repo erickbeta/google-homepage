@@ -1,6 +1,13 @@
 #google-logo{
-
-    float: left;
-    
-
+    display: block;
+    position: relative;
+    left: 400px;
+    top: 150px;
 }
+
+#search-bar{
+    position: relative;
+    left: 500px;
+    top: 150px;
+}    
+
