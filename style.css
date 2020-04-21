@@ -1,23 +1,49 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 1060px) {
+
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+
+}
+
+
+
+
+
+
 #google-logo{
 
     display: block;
     position: relative;
     left: 480px;
     top: 150px;
+ 
     
 }
 
 #search-bar input[type=text] {
 
     position: relative;
-    left: 400px;
+    left: 375px;
     top: 160px;
-    border-radius: 15px;
-    padding: 8px;
-    width: 400px;
+    border-radius: 20px;
+    padding: 12px;
+    width: 500px;
     border: none;
     border:1px solid #eaeaea;
     outline:none;
+    padding:12px;
     
 
 }
@@ -25,6 +51,7 @@
 #search-bar input:hover{
 
     border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.2);
 
 }
 
@@ -67,14 +94,47 @@ input[type="submit"]:hover {
     position: relative;
     left: 170px;
     bottom: 35px;
+    font-size: 10px;
+
 }
 
 .gmail p{
+
     text-decoration: none;
     position: absolute;
-    right: 100px;
+    right: 200px;
     top: 10px;
     display: block;
     cursor: pointer;
+    margin: 5px;
+
+}
+
+.images p{
+
+    text-decoration: none;
+    position: absolute;
+    right: 140px;
+    top: -1px;
+    display: block;
+    cursor: pointer;
+
+}
+
+.magny{
+
+    filter: opacity(30%);
+    position: relative;
+    left: 405px;
+    top: 130px;
+
+}
+
+.grid{
+
+    filter: opacity(50%);
+    position: relative;
+    cursor: pointer;
+    width: 100%;
 
 }
